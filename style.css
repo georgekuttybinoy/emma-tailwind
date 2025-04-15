@@ -15,3 +15,25 @@
     background-size: 200% 200%;
     animation: gradientText 5s ease infinite;
   }
+
+
+
+
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-30px);
+      opacity: 0.8;
+    }
+  }
+  
+  .animate-float {
+    animation: floatUpDown 3s ease-in-out infinite;
+  }
